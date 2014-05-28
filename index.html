@@ -27,21 +27,56 @@
       </nav>
     </div>
 
-    <div class="row">
-      <div class="large-8 large-centered columns">
-        <h3 style="text-align:center;">Subscribe to our newsletter</h3>
-      </div>
-    </div>
-    <div class="row">
-      <div class="large-10 large-centered columns">  
-        
-        <p style="text-align:center;">Sign up now to our newsletter and you'll be one of the first to know when the site is ready:</p>
+    <div id="demo">
+      <div class="row">
+        <div class="large-12 columns">&nbsp;</div>
+        <div class="large-12 columns">&nbsp;</div>
+        <div class="large-12 columns">&nbsp;</div>
+        <div class="large-12 columns">&nbsp;</div>
+        <div class="large-12 columns">&nbsp;</div>
+        <div class="large-12 columns">&nbsp;</div>
+        <div class="large-12 columns">&nbsp;</div>
+        <div class="large-12 columns">&nbsp;</div>
+        <div class="large-6 large-centered columns">
+          <h2 style="text-align:center;">WE'RE COMING SOON</h2>
+        </div>
+
+        <div class="row">
+          <div class="large-12 large-centered columns">
+            <p style="text-align:center;">We are working very hard on the new version of our site.</p>
+          </div>
+          <div class="large-12 columns">&nbsp;</div>
+          <div class="large-12 columns">&nbsp;</div>
+          <div class="large-12 columns">&nbsp;</div>
+          <div class="large-12 columns">&nbsp;</div>
+          <div class="large-12 columns">&nbsp;</div>
+          <div class="large-12 columns">&nbsp;</div>
+          <div class="large-12 columns">&nbsp;</div>
+          <div class="large-12 columns">&nbsp;</div>
+        </div>
+
       </div>
     </div>
 
     <div class="row">
+      
+      <div class="large-8 large-centered columns">
+        <h3 style="text-align:center;">Subscribe to our newsletter</h3>
+      </div>
+    
+    </div>
+
+    <div class="row">
+      
+      <div class="large-10 large-centered columns">
+        <p style="text-align:center;">Sign up now to our newsletter and you'll be one of the first to know when the site is ready:</p>
+      </div>
+
+    </div>
+
+    <div class="row">
       <div class="large-6 large-centered columns">
-        
+
         <form>
           <div class="row collapse">
             <div class="small-10 columns">
@@ -52,6 +87,7 @@
             </div>
           </div>
         </form>
+      
       </div>
     </div>
     
@@ -70,8 +106,16 @@
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script type="text/javascript" src="js/foundation/foundation.topbar.js"></script>
+    <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
     <script>
       $(document).foundation();
+
+      $.backstretch([
+        "http://37.media.tumblr.com/e57c423d3d247b4c1a0bc92a77364d39/tumblr_n5rb09ND8n1qzzelmo1_1280.png"
+        , "http://37.media.tumblr.com/199b1b986b62f09d53de235b2ce40ad2/tumblr_n5pbzmDRQ31qzzelmo1_1280.png"
+        , "http://37.media.tumblr.com/tumblr_lpz1ulN1XF1qzzelmo1_500.png"
+      ], {duration: 3000, fade: 750});
+
     </script>
   </body>
 </html>
