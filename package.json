@@ -1,0 +1,19 @@
+{
+  "name": "soooner",
+  "version": "1.0.0",
+  "description": "An official coming soon landing page",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scherichel/soooner.git"
+  },
+  "author": "Stanley DS Cherichel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scherichel/soooner/issues"
+  },
+  "homepage": "https://github.com/scherichel/soooner"
+}
