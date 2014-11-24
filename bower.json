@@ -1,0 +1,19 @@
+{
+  "name": "soooner",
+  "version": "1.0.0",
+  "homepage": "https://github.com/scherichel/soooner",
+  "authors": [
+    "Stanley Cherichel <scherichel@gmail.com>"
+  ],
+  "description": "An official coming soon landing page",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
